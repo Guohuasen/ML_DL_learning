@@ -10,3 +10,6 @@ venv/
 # local junk
 .codexprobe
 
+
+.vs/
+
