@@ -2,6 +2,9 @@
 
 > 2026-09-09 起强制维护：每次修改提示词必须在此追加一条，并与 GitHub 提交记录对应。
 
+## v4.16 — 2026-09-18
+- 附录 B 新增第 8～10 条：默认不走代理（校内模型直连）；仅推送/外网验证时临时启用 Clash 代理 127.0.0.1:7890 + OpenSSL；记录 Clash 快捷方式与源程序路径；代理用后即弃，不写全局 git 配置与环境变量。
+
 ## v4.15 — 2026-09-18
 - 附录 B 新增第 6、7 条：GitHub 推送认证约定（PAT 文件路径、一次性推送、用后即弃、过期提醒用户更新）。
 - 修正 token 路径：用户口述 C:\Users\ASUS\Desktop\github\_access\_token.txt，实测实际路径为 C:\Users\ASUS\Desktop\github_access_token.txt。
